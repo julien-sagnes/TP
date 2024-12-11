@@ -353,4 +353,14 @@ print(pseudo_inverse_J)
 print("=====================")
 print("")
 
-# type: ignore #def MCI()
+def MCI(p,q_actual):
+    """
+    Parameters
+    ----------
+    q : vecteur de coordonnées articulaires
+
+    Returns J : la jacobienne
+    -------
+    Renvoie la jacobienne
+    """
+
